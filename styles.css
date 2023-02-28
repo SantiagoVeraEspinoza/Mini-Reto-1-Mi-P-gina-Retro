@@ -1,0 +1,92 @@
+body {
+    background-image: url("./bg.jpg");
+    background-repeat: repeat;
+ }
+
+ /* Titles */
+
+ h1.bigh {
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 86px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e7020f, 0 0 70px #790a0f, 0 0 80px #ea0105, 0 0 100px #e3010a, 0 0 150px #d6070e;
+
+    text-align: center;
+ }
+
+ h2.default {
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 48px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e7020f, 0 0 70px #790a0f, 0 0 80px #ea0105, 0 0 100px #e3010a, 0 0 150px #d6070e;
+
+    text-align: left;
+ }
+
+ p.default {
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    text-align: justify;
+ }
+
+ .main-flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+ .flexbox-base {
+   display: flex;
+   flex-direction: column;
+   width: 46%;
+   min-width: 500px;
+ }
+
+ .sub-flex {
+   display: flex;
+   flex-direction: row;
+}
+
+.poster-img {
+   margin-left: 2%;
+   width: 50%;
+   
+   max-width: 100%;
+   height: auto;
+}
+
+.poster-img2 {
+   margin-left: 2%;
+   height: 150px;
+}
+
+.flexJq {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+
+   width: 400px;
+}
+
+.fgif {
+   height: 180px;
+}
+
+.tengen-img {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.buttonAjx {
+   display: flex;
+   margin-bottom: 30px;
+   justify-content: center;
+   align-items: center;
+   
+   margin-left: 2%;
+   margin-right: 2%;
+}
